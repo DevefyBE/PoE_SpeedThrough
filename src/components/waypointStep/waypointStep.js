@@ -28,12 +28,12 @@ export default function WaypointStep(props) {
                 <span>{icons[props.type]}</span> <p>{props.header}</p>
             </div>
 
-            {props.description !== undefined && <div className='stepContent'>
+            {(props.description !== undefined && props.description !== null) && <div className='stepContent'>
                 {props.description}
             </div>
             }
 
-            {props.hints !== undefined &&
+            {(props.hints !== undefined && props.hints !== null) &&
                 <div className='stepHints'>
                     {props.hints !== undefined && props.hints.map(item => {
                         return <p><FaExclamation /> {item}</p>;

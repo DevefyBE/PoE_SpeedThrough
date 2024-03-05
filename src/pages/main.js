@@ -1,87 +1,49 @@
 import './main.css'
 import WaypointStep from "../components/waypointStep/waypointStep"
+import { useEffect, useState } from 'react';
 
 function Main(props) {
-    return (
-        <div className='wrapper'>
-            <div className='stepWrapper-horizontal'>
-                <WaypointStep header='Explore' type='exploration' description='Explore the zone until you find Hillock.' />
-                <WaypointStep header='Obtain Skill Gems' type='loot' description='While progressing through the zone, you will find two skill gems. The second one is hidden in a chest.' />
-            </div>
 
-            <div className='stepWrapper-vertical'>
-                <WaypointStep header='Kill: Hillock' type='kill' />
-                <WaypointStep header="Enter Lioneye's Watch (town)" type='portal' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
-                <WaypointStep header="Turn in Quest: Enemy at the Gate" type='quest' description="Talk to Nessa." />
-                <WaypointStep header="Enter The Coast" type='portal' />
-                <WaypointStep header="Find the Waypoint" type='exploration' />
-                <WaypointStep header="Enter Tidal Island" type='portal' />
-                <WaypointStep header='Kill: Hailrake' type='kill' />
-                <WaypointStep header='Obtain Medicine Chest' type='loot' />
-                <WaypointStep header="Enter The Mud Flats" type='portal' />
-            </div>
+    let [poeOrder, setPoeOrder] = useState({})
+    // // var response = ;
+    // var poeOrder = response.json();
+    // console.log(poeOrder);
 
-            <div className='stepWrapper-horizontal'>
-                <WaypointStep header='Obtain Ammonite Glyph' type='loot' description='Open Rhoa nests throughout the zone.' hints={["The nests are connected to eachother through a stream of water."]}/>
-                <WaypointStep header='Obtain Hallotis Glyph' type='loot' description='Open Rhoa nests throughout the zone.' hints={["The nests are connected to eachother through a stream of water."]} />
-                <WaypointStep header='Obtain Roseas Glyph' type='loot' description='Open Rhoa nests throughout the zone.' hints={["The nests are connected to eachother through a stream of water."]} />
-            </div>
+    const loadPoeOrder = () => {
+        fetch("assets/poe-order.json", { headers: { 'Content-Type': 'application/json' } })
+            .then((response) => response.json())
+            .then(json => setPoeOrder(json))
+    }
 
-            <div className='stepWrapper-vertical'>
-                <WaypointStep header="Open the entrance to The Submerged Passage" type='exploration' description='Find a glyph wall and click it with the looted glyphs in the inventory.' />
-                <WaypointStep header="Enter The Submerged Passage" type='portal' />
-                <WaypointStep header="Grab the waypoint" type='exploration' description='Find a glyph wall and click it with the looted glyphs in the inventory.' />
-                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
-            </div>
+    useEffect(() => {
+        loadPoeOrder()
+    }, []);
 
-            <div className='stepWrapper-horizontal'>
-                <WaypointStep header="Turn in Quest: Mercy Mission" type='quest' description="Talk to ..." />
-                <WaypointStep header="Turn in Quest: Breaking Some Eggs" type='quest' description="Talk to ..." />
-            </div>
 
-            <div className='stepWrapper-vertical'>
-                <WaypointStep header="Go to The Submerged Passage" type='portal' />
-                <WaypointStep header="Enter The Flooded Depths" type='portal' description='If you happen to find a big bridge section before killing Dweller of the Deep in The flooded depths, ignore it as it leads to The Ledge.'/>
-                <WaypointStep header='Kill: The Dweller of the Deep' type='kill' />
-                <WaypointStep header="Enter The Submerged Passage" type='portal'/>
-                <WaypointStep header="Enter The Ledge" type='portal'/>
-                <WaypointStep header="Find the Waypoint" type='exploration' />
-                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
-                <WaypointStep header="Turn in Quest: Dweller of the Deep" type='quest' description="Talk to ..." />
-                <WaypointStep header="Go to The Ledge" type='portal'/>
-                <WaypointStep header="Enter The Climb" type='portal' />
-                {/* <WaypointStep header="Find the Waypoint" type='exploration' /> */}
-                <WaypointStep header="Enter The Lower Prison" type='portal' />
-                <WaypointStep header="Trial of Ascendency: 1" type='trial' />
-                <WaypointStep header="Enter The Upper Prison" type='portal' />
-                <WaypointStep header="Enter The Warden's Quarters" type='portal' />
-                <WaypointStep header='Kill: Brutus' type='kill' />
-                <WaypointStep header="Enter The Warden's Quarters" type='portal' />
-                <WaypointStep header="Enter The Prisoners Gate" type='portal' />
-                <WaypointStep header="Find the Waypoint" type='exploration' />
-                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
-                <WaypointStep header="Turn in Quest: The Caged Brute" type='quest' description="Talk to ..." />
-                <WaypointStep header="Go to The Prisoners Gate" type='portal' />
-                <WaypointStep header="Enter The Ship Graveyard" type='portal' />
-                <WaypointStep header="Enter The Ship Graveyard Cave" type='portal' />
-                <WaypointStep header='Obtain The Allflame' type='loot' description='Interact with the Slave Girl to have it dropped. The zone boss can be ignored.'/>
-                <WaypointStep header="Enter The Ship Graveyard" type='portal' />
-                <WaypointStep header='Kill: Fairgraves' type='kill' />
-                <WaypointStep header="Enter The Caverns of Wraith" type='portal' />
-                <WaypointStep header="Find the Waypoint" type='exploration' />
-                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' description='This is the last time we hit town before the Merveil encounter.' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
-                <WaypointStep header="Turn in Quest: ????????" type='quest' description="Talk to ..." />
-                <WaypointStep header="Go to The Caverns of Wraith" type='portal' />
-                <WaypointStep header="Enter The Caverns of Anger" type='portal' />
-                <WaypointStep header="Enter Merveil's Lair" type='portal' />
-                <WaypointStep header='Kill: Merveil' type='kill' />
-                <WaypointStep header="Enter The Southern Forest" type='portal' />
-                <WaypointStep header="Find the Waypoint" type='exploration' />
-                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' />
-                <WaypointStep header="Turn in Quest: ????????" type='quest' description="Talk to ..." />
+    if (Object.keys(poeOrder).length === 0) {
+        return;
+    } else {
+        return (
+            <div className='wrapper'>
+                {
+                    poeOrder.acts.map(act => {
+                        return <div>
+                            <h1>{act.key}</h1>
+                            {act.stepBundles.map(stepBundle => {
+                                return <div key={stepBundle.key} className={`stepWrapper-${stepBundle.direction}`}>
+                                    {
+                                        stepBundle.steps.map(step => {
+                                            return <WaypointStep header={step.header} type={step.type} description={step.description} hints={step.hints} />
+                                        })
+                                    }
+                                </div>
+                            })}
+                        </div>
+                    })
+                }
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default Main
