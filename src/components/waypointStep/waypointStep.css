@@ -67,6 +67,22 @@ hr {
     /* background: rgb(141, 85, 1); */
 }
 
+.stepHeader > p {
+    display: inline;
+}
+
+.stepHeader > span {
+    padding: 16px 0;
+}
+
 .stepContent {
     padding: 0.5em;
+}
+
+.stepHints {
+    padding: 0.5em;
+}
+
+.stepHints > p {
+    margin: 0.25em 0px;
 }

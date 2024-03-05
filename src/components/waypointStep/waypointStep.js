@@ -18,15 +18,26 @@ export default function WaypointStep(props) {
         'trial': <TbSortAscending />
     }
 
+    if (props.hints === undefined) {
+
+    }
+
     return (
         <div className={`step border-${props.type}`}>
             <div className={`stepHeader background-${props.type}`}>
-                {icons[props.type]} {props.header}
+                <span>{icons[props.type]}</span> <p>{props.header}</p>
             </div>
-            {/* <hr /> */}
-            {props.description != null &&
-                <div className='stepContent'>
-                    {props.description}
+
+            {props.description !== undefined && <div className='stepContent'>
+                {props.description}
+            </div>
+            }
+
+            {props.hints !== undefined &&
+                <div className='stepHints'>
+                    {props.hints !== undefined && props.hints.map(item => {
+                        return <p><FaExclamation /> {item}</p>;
+                    })}
                 </div>
             }
 

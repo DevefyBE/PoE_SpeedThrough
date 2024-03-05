@@ -11,7 +11,7 @@ function Main(props) {
 
             <div className='stepWrapper-vertical'>
                 <WaypointStep header='Kill: Hillock' type='kill' />
-                <WaypointStep header="Enter Lioneye's Watch (town)" type='portal' />
+                <WaypointStep header="Enter Lioneye's Watch (town)" type='portal' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
                 <WaypointStep header="Turn in Quest: Enemy at the Gate" type='quest' description="Talk to Nessa." />
                 <WaypointStep header="Enter The Coast" type='portal' />
                 <WaypointStep header="Find the Waypoint" type='exploration' />
@@ -22,16 +22,16 @@ function Main(props) {
             </div>
 
             <div className='stepWrapper-horizontal'>
-                <WaypointStep header='Obtain Ammonite Glyph' type='loot' description='Open Rhoa nests throughout the zone.' />
-                <WaypointStep header='Obtain Hallotis Glyph' type='loot' description='Open Rhoa nests throughout the zone.' />
-                <WaypointStep header='Obtain Roseas Glyph' type='loot' description='Open Rhoa nests throughout the zone.' />
+                <WaypointStep header='Obtain Ammonite Glyph' type='loot' description='Open Rhoa nests throughout the zone.' hints={["The nests are connected to eachother through a stream of water."]}/>
+                <WaypointStep header='Obtain Hallotis Glyph' type='loot' description='Open Rhoa nests throughout the zone.' hints={["The nests are connected to eachother through a stream of water."]} />
+                <WaypointStep header='Obtain Roseas Glyph' type='loot' description='Open Rhoa nests throughout the zone.' hints={["The nests are connected to eachother through a stream of water."]} />
             </div>
 
             <div className='stepWrapper-vertical'>
                 <WaypointStep header="Open the entrance to The Submerged Passage" type='exploration' description='Find a glyph wall and click it with the looted glyphs in the inventory.' />
                 <WaypointStep header="Enter The Submerged Passage" type='portal' />
                 <WaypointStep header="Grab the waypoint" type='exploration' description='Find a glyph wall and click it with the looted glyphs in the inventory.' />
-                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' />
+                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
             </div>
 
             <div className='stepWrapper-horizontal'>
@@ -46,7 +46,7 @@ function Main(props) {
                 <WaypointStep header="Enter The Submerged Passage" type='portal'/>
                 <WaypointStep header="Enter The Ledge" type='portal'/>
                 <WaypointStep header="Find the Waypoint" type='exploration' />
-                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' />
+                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
                 <WaypointStep header="Turn in Quest: Dweller of the Deep" type='quest' description="Talk to ..." />
                 <WaypointStep header="Go to The Ledge" type='portal'/>
                 <WaypointStep header="Enter The Climb" type='portal' />
@@ -59,7 +59,7 @@ function Main(props) {
                 <WaypointStep header="Enter The Warden's Quarters" type='portal' />
                 <WaypointStep header="Enter The Prisoners Gate" type='portal' />
                 <WaypointStep header="Find the Waypoint" type='exploration' />
-                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' />
+                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
                 <WaypointStep header="Turn in Quest: The Caged Brute" type='quest' description="Talk to ..." />
                 <WaypointStep header="Go to The Prisoners Gate" type='portal' />
                 <WaypointStep header="Enter The Ship Graveyard" type='portal' />
@@ -69,7 +69,7 @@ function Main(props) {
                 <WaypointStep header='Kill: Fairgraves' type='kill' />
                 <WaypointStep header="Enter The Caverns of Wraith" type='portal' />
                 <WaypointStep header="Find the Waypoint" type='exploration' />
-                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' description='This is the last time we hit town before the Merveil encounter. Try and get a Sapphire Ring for the Cold Resistance it provides.'/>
+                <WaypointStep header="Go to Lioneye's Watch (town)" type='portal' description='This is the last time we hit town before the Merveil encounter.' hints={[" If funds allow it and you don’t have one yet, get a Sapphire Ring for Cold Resistance against Merveil.", "If you need more 3-Linked items, look at the stores of Nessa and Tarkleigh"]}/>
                 <WaypointStep header="Turn in Quest: ????????" type='quest' description="Talk to ..." />
                 <WaypointStep header="Go to The Caverns of Wraith" type='portal' />
                 <WaypointStep header="Enter The Caverns of Anger" type='portal' />
