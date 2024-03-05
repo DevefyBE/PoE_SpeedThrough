@@ -4,6 +4,8 @@ import { FaPersonWalking } from "react-icons/fa6";
 import { CiBag1 } from "react-icons/ci";
 import { GiPortal } from "react-icons/gi";
 import { FaExclamation } from "react-icons/fa";
+import { TbSortAscending } from "react-icons/tb";
+
 
 export default function WaypointStep(props) {
 
@@ -12,7 +14,8 @@ export default function WaypointStep(props) {
         'loot': <CiBag1 />,
         'kill': <GiCrossedSwords />,
         'portal': <GiPortal />,
-        'quest': <FaExclamation />
+        'quest': <FaExclamation />,
+        'trial': <TbSortAscending />
     }
 
     return (

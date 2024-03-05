@@ -52,6 +52,14 @@ hr {
     background-color: #0d721b
 }
 
+.border-trial {
+    border-color: #678c72;
+}
+
+.background-trial {
+    background-color: #678c72
+}
+
 .stepHeader {
     padding: 0.25em;
     font-weight: bold;
