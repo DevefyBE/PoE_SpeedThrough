@@ -10,6 +10,8 @@ hr {
     color: white;
 }
 
+
+
 .border-exploration {
     border-color: rgb(141, 85, 1);
 }
@@ -49,9 +51,6 @@ hr {
 .background-loot {
     background-color: #0d721b
 }
-
-
-
 
 .stepHeader {
     padding: 0.25em;

@@ -1,7 +1,33 @@
-.wrapper {
-    width: 60%;
-    margin: 0 auto;
+
+
+@media screen and (min-width: 800px){
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
+
+@media screen and (min-width: 1280px){
+    .wrapper {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .stepWrapper-horizontal {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .stepWrapper-vertical {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
 
 .stepWrapper-horizontal {
     display: flex;
