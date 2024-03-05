@@ -1,0 +1,14 @@
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.stepWrapper-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.stepWrapper-vertical {
+    display: flex;
+    flex-direction: column;
+}
