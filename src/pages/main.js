@@ -33,7 +33,7 @@ function Main(props) {
                                 return <div key={stepBundle.key} className={`stepWrapper-${stepBundle.direction}`}>
                                     {
                                         stepBundle.steps.map(step => {
-                                            return <WaypointStep header={step.header} type={step.type} description={step.description} hints={step.hints} />
+                                            return <WaypointStep header={`${step.key} ${step.header}`} type={step.type} description={step.description} hints={step.hints} />
                                         })
                                     }
                                 </div>
