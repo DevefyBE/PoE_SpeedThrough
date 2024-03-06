@@ -9,6 +9,14 @@ body {
   padding: 1em;
 }
 
+body h1 {
+  color: white;
+}
+
+hr {
+  margin-bottom: 1em;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

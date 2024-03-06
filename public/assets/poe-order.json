@@ -648,7 +648,202 @@
                     "steps": [
                         {
                             "key": "2.18",
+                            "header": "Enter: The Riverways",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.19",
+                            "header": "Explore: Find the waypoint",
+                            "type": "exploration",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.20",
+                            "header": "Enter: Western Forest",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        }
+                    ]
+                },
+                {
+                    "key":"Bundle_1.1",
+                    "direction": "horizontal",
+                    "columns": ["1", "2", "3"],
+                    "steps": [
+                        {
+                            "key": "2.21",
+                            "header": "Kill: Captain Arteri",
+                            "type": "kill",
+                            "column": "1",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.22",
+                            "header": "Loot: Thaumetic Emblem",
+                            "type": "kill",
+                            "column": "1",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.23",
+                            "header": "Explore: Socket the emblem",
+                            "type": "exploration",
+                            "column": "1",
+                            "description": "The socket to put the emblem in should be close to the location where you killed Captain Arteri",
+                            "hints": null
+                        },
+                        {
+                            "key": "2.24",
+                            "header": "Kill: Alira",
+                            "type": "kill",
+                            "column": "2",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.25",
+                            "header": "Enter: The Weaver's Chambers",
+                            "type": "portal",
+                            "column": "3",
+                            "description": "The entrance of this zone is always located opposite Alira's camp",
+                            "hints": ["You'll know that you're going the right way when you the forest getting covered in cobwebs"]
+                        },
+                        {
+                            "key": "2.26",
+                            "header": "Kill: The Weaver",
+                            "type": "kill",
+                            "column": "3",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.27",
+                            "header": "Loot: Maligaro's Spike",
+                            "type": "loot",
+                            "column": "3",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.28",
+                            "header": "Enter: The Riverways",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        }
+                    ]
+                },
+                {
+                    "key":"Bundle_1.1",
+                    "direction": "vertical",
+                    "steps": [
+                        {
+                            "key": "2.29",
+                            "header": "Enter: The Riverways",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.29",
+                            "header": "Enter: The Wetlands",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.30",
+                            "header": "Kill: Oak",
+                            "type": "kill",
+                            "description": null,
+                            "hints": ["You can find Oak's camp by following the small stream of water."]
+                        },
+                        {
+                            "key": "2.31",
+                            "header": "Explore: Find the waypoint",
+                            "type": "exploration",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.32",
                             "header": "Enter: Forest Encampment (Town)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.33",
+                            "header": "Quest: ???",
+                            "type": "quest",
+                            "description": "Talk to ...",
+                            "hints": null
+                        },
+                        {
+                            "key": "2.34",
+                            "header": "Loot: The Apex",
+                            "type": "quest",
+                            "description": "This is a quest reward, make sure that you have it.",
+                            "hints": null
+                        },
+                        {
+                            "key": "2.35",
+                            "header": "Enter: The Wetlands",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.36",
+                            "header": "Enter: The Vaal Ruins",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.37",
+                            "header": "Enter: The Northerns Forest",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.38",
+                            "header": "Enter: The Dread Thicket",
+                            "type": "portal",
+                            "description": null,
+                            "hints": ["You can unlock hideout in this zone"]
+                        },
+                        {
+                            "key": "2.39",
+                            "header": "Enter: The Caverns",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.40",
+                            "header": "Enter: The Ancient Pyramid",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.41",
+                            "header": "Kill: Vaal Oversoul",
+                            "type": "kill",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.41",
+                            "header": "Enter: The City of Sarn",
                             "type": "portal",
                             "description": null,
                             "hints": null
