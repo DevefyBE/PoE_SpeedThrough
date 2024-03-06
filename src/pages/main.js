@@ -16,6 +16,27 @@ function Main(props) {
         loadPoeOrder()
     }, []);
 
+    const getWhateverINeed = (stepBundle) => {
+        if(stepBundle.direction === "horizontal" && stepBundle.columns !== undefined && stepBundle.columns !== null && stepBundle.columns.length > 0)
+        {
+            return stepBundle.columns.map(column => {
+                return <div className='stepColumn'>
+                    {
+                        stepBundle.steps.filter(item => {
+                            return item.column === column 
+                        }).map(step => {
+                            return <WaypointStep header={`${step.key} ${step.header}`} type={step.type} description={step.description} hints={step.hints} />
+                        })
+                    }
+                </div>
+            })
+        }else{
+            return stepBundle.steps.map(step => {
+                return <WaypointStep header={`${step.key} ${step.header}`} type={step.type} description={step.description} hints={step.hints} />
+            })
+        }
+    }
+
 
     if (Object.keys(poeOrder).length === 0) {
         return;
@@ -29,9 +50,7 @@ function Main(props) {
                             {act.stepBundles.map(stepBundle => {
                                 return <div key={stepBundle.key} className={`stepWrapper-${stepBundle.direction}`}>
                                     {
-                                        stepBundle.steps.map(step => {
-                                            return <WaypointStep header={`${step.key} ${step.header}`} type={step.type} description={step.description} hints={step.hints} />
-                                        })
+                                        getWhateverINeed(stepBundle)
                                     }
                                 </div>
                             })}

@@ -6,9 +6,11 @@
                 {
                     "key":"Bundle_1.1",
                     "direction": "horizontal",
+                    "columns" : ["1", "2"],
                     "steps": [
                         {
                             "key": "1.1",
+                            "column": "1",
                             "header": "Explore: Twilight Strand",
                             "type": "exploration",
                             "description": "Explore the zone until you find Hillock.",
@@ -16,6 +18,7 @@
                         },
                         {
                             "key": "1.2",
+                            "column": "2",
                             "header": "Loot: Skill Gems",
                             "type": "loot",
                             "description": "While progressing through the zone, you will find two skill gems. The second one is hidden in a chest.",
@@ -151,9 +154,11 @@
                 {
                     "key":"Bundle_1.3",
                     "direction": "horizontal",
+                    "columns" : ["1", "2"],
                     "steps": [
                         {
                             "key": "1.18",
+                            "column": "1",
                             "header": "Quest: Mercy Mission",
                             "type": "quest",
                             "description": "Talk to ...",
@@ -161,6 +166,7 @@
                         },
                         {
                             "key": "1.19",
+                            "column": "2",
                             "header": "Quest: Breaking Some Eggs",
                             "type": "quest",
                             "description": "Talk to ...",
@@ -453,7 +459,203 @@
         },
         {
             "key": "Act 2",
-            "stepBundles": []
+            "stepBundles": [
+                {
+                    "key":"Bundle_1.1",
+                    "direction": "vertical",
+                    "steps": [
+                        {
+                            "key": "2.1",
+                            "header": "Enter: The Southern Forest",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.2",
+                            "header": "Enter: Forest Encampment (Town)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.3",
+                            "header": "Enter: The Old Fields",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.4",
+                            "header": "Enter: The Den",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.5",
+                            "header": "Kill: The Great White Beast",
+                            "type": "kill",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.6",
+                            "header": "Enter: The Old Fields",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.6",
+                            "header": "Enter: The Crossroads",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        }
+                    ]
+                },
+                {
+                    "key":"Bundle_1.1",
+                    "direction": "horizontal",
+                    "columns" : ["1", "2", "3"],
+                    "steps": [
+                        {
+                            "key": "2.7",
+                            "header": "Enter: Fellshrine Ruins",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "1"
+                        },
+                        {
+                            "key": "2.8",
+                            "header": "Enter: The Crypt Level 1",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "1"
+                        },
+                        {
+                            "key": "2.9",
+                            "header": "Trial of Ascendancy: 2",
+                            "type": "trial",
+                            "description": null,
+                            "hints": null,
+                            "column": "1"
+                        },
+                        {
+                            "key": "2.10",
+                            "header": "Enter: Forest Encampment (Town)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "1"
+                        },
+                        {
+                            "key": "2.11",
+                            "header": "Enter: The Crossroads (if needed)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "1"
+                        },
+                        {
+                            "key": "2.12",
+                            "header": "Enter: The Chamber of Sins Level 1",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "2"
+                        },
+                        {
+                            "key": "2.13",
+                            "header": "Enter: The Chamber of Sins Level 2",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "2"
+                        },
+                        {
+                            "key": "2.14",
+                            "header": "Trial of Ascendancy: 3",
+                            "type": "trial",
+                            "description": null,
+                            "hints": null,
+                            "column": "2"
+                        },
+                        {
+                            "key": "2.15",
+                            "header": "Kill: Fidelitas",
+                            "type": "kill",
+                            "description": null,
+                            "hints": null,
+                            "column": "2"
+                        },
+                        {
+                            "key": "2.16",
+                            "header": "Enter: Forest Encampment (Town)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "2"
+                        },
+                        {
+                            "key": "2.17",
+                            "header": "Enter: The Crossroads (if needed)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "2"
+                        },
+                        {
+                            "key": "2.18",
+                            "header": "Enter: The Broken Bridge",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "3"
+                        },
+                        {
+                            "key": "2.19",
+                            "header": "Kill: Kraityn",
+                            "type": "kill",
+                            "description": null,
+                            "hints": null,
+                            "column": "3"
+                        },
+                        {
+                            "key": "2.16",
+                            "header": "Enter: Forest Encampment (Town)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "3"
+                        },
+                        {
+                            "key": "2.17",
+                            "header": "Enter: The Crossroads (if needed)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "3"
+                        }
+                    ]
+                },
+                {
+                    "key":"Bundle_1.1",
+                    "direction": "vertical",
+                    "steps": [
+                        {
+                            "key": "2.18",
+                            "header": "Enter: Forest Encampment (Town)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        }
+                    ]
+                }
+            ]
         },
         {
             "key": "Act 3",
