@@ -86,3 +86,19 @@ hr {
 .stepHints > p {
     margin: 0.25em 0px;
 }
+
+.inactive > .stepContent{
+    display:none;
+}
+
+.inactive > .stepHints {
+    display:none;
+}
+
+.inactive > .stepHeader {
+    background-color: gray;
+}
+
+.inactive {
+    border-color: darkgray;
+}

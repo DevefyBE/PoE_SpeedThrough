@@ -5,10 +5,7 @@ import { useEffect, useState } from 'react';
 function Main(props) {
 
     let [poeOrder, setPoeOrder] = useState({})
-    // // var response = ;
-    // var poeOrder = response.json();
-    // console.log(poeOrder);
-
+    
     const loadPoeOrder = () => {
         fetch("assets/poe-order.json", { headers: { 'Content-Type': 'application/json' } })
             .then((response) => response.json())

@@ -5,9 +5,12 @@ import { CiBag1 } from "react-icons/ci";
 import { GiPortal } from "react-icons/gi";
 import { FaExclamation } from "react-icons/fa";
 import { TbSortAscending } from "react-icons/tb";
+import { useState } from 'react';
 
 
 export default function WaypointStep(props) {
+
+    var [isActive, setIsActive] = useState(true)
 
     var icons = {
         'exploration': <FaPersonWalking />,
@@ -18,12 +21,12 @@ export default function WaypointStep(props) {
         'trial': <TbSortAscending />
     }
 
-    if (props.hints === undefined) {
-
+    const toggleIsActive = () => {
+        setIsActive(!isActive);
     }
 
     return (
-        <div className={`step border-${props.type}`}>
+        <div className={`step border-${props.type} ${!isActive ? "inactive" : ""}`} onClick={toggleIsActive}>
             <div className={`stepHeader background-${props.type}`}>
                 <span>{icons[props.type]}</span> <p>{props.header}</p>
             </div>
