@@ -4,9 +4,12 @@
             "key": "Act 1",
             "stepBundles": [
                 {
-                    "key":"Bundle_1.1",
+                    "key": "Bundle_1.1",
                     "direction": "horizontal",
-                    "columns" : ["1", "2"],
+                    "columns": [
+                        "1",
+                        "2"
+                    ],
                     "steps": [
                         {
                             "key": "1.1",
@@ -27,7 +30,7 @@
                     ]
                 },
                 {
-                    "key":"Bundle_1.2",
+                    "key": "Bundle_1.2",
                     "direction": "vertical",
                     "steps": [
                         {
@@ -152,9 +155,12 @@
                     ]
                 },
                 {
-                    "key":"Bundle_1.3",
+                    "key": "Bundle_1.3",
                     "direction": "horizontal",
-                    "columns" : ["1", "2"],
+                    "columns": [
+                        "1",
+                        "2"
+                    ],
                     "steps": [
                         {
                             "key": "1.18",
@@ -175,7 +181,7 @@
                     ]
                 },
                 {
-                    "key":"Bundle_1.4",
+                    "key": "Bundle_1.4",
                     "direction": "vertical",
                     "steps": [
                         {
@@ -299,21 +305,21 @@
                             "hints": null
                         },
                         {
-                            "key": "1.35",
+                            "key": "1.36",
                             "header": "Enter: The Prisoners Gate",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.36",
+                            "key": "1.37",
                             "header": "Explore: Find the waypoint",
                             "type": "exploration",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.37",
+                            "key": "1.38",
                             "header": "Enter: Lioneye's Watch (town)",
                             "type": "portal",
                             "description": null,
@@ -323,21 +329,21 @@
                             ]
                         },
                         {
-                            "key": "1.38",
+                            "key": "1.39",
                             "header": "Quest: The Caged Brute",
                             "type": "quest",
                             "description": "Talk to ...",
                             "hints": null
                         },
                         {
-                            "key": "1.39",
+                            "key": "1.40",
                             "header": "Enter: The Ship Graveyard",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.40",
+                            "key": "1.41",
                             "header": "Enter: The Ship Graveyard Cave",
                             "type": "portal",
                             "description": null,
@@ -367,21 +373,21 @@
                             "hints": null
                         },
                         {
-                            "key": "1.43",
+                            "key": "1.45",
                             "header": "Enter: The Caverns of Wraith",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.44",
+                            "key": "1.46",
                             "header": "Explore: Find the waypoint",
                             "type": "exploration",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.45",
+                            "key": "1.47",
                             "header": "Enter: Lioneye's Watch (town)",
                             "type": "portal",
                             "description": "This is the last stop in town before the Merveil encounter.",
@@ -391,63 +397,63 @@
                             ]
                         },
                         {
-                            "key": "1.46",
+                            "key": "1.48",
                             "header": "Quest: ???",
                             "type": "quest",
                             "description": "Talk to ...",
                             "hints": null
                         },
                         {
-                            "key": "1.47",
+                            "key": "1.49",
                             "header": "Enter: The Caverns of Wraith",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.48",
+                            "key": "1.50",
                             "header": "Enter: The Caverns of Anger",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.49",
+                            "key": "1.51",
                             "header": "Enter: Merveil's Lair",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.50",
+                            "key": "1.52",
                             "header": "Kill: Merveil",
                             "type": "kill",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.51",
+                            "key": "1.53",
                             "header": "Enter: The Southern Forest",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.52",
+                            "key": "1.54",
                             "header": "Explore: Find the waypoint",
                             "type": "exploration",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.53",
+                            "key": "1.55",
                             "header": "Enter: Lioneye's Watch (town)",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "1.54",
+                            "key": "1.56",
                             "header": "Quest: ???",
                             "type": "quest",
                             "description": "Talk to ...",
@@ -461,7 +467,7 @@
             "key": "Act 2",
             "stepBundles": [
                 {
-                    "key":"Bundle_1.1",
+                    "key": "Bundle_2.1",
                     "direction": "vertical",
                     "steps": [
                         {
@@ -507,7 +513,7 @@
                             "hints": null
                         },
                         {
-                            "key": "2.6",
+                            "key": "2.7",
                             "header": "Enter: The Crossroads",
                             "type": "portal",
                             "description": null,
@@ -516,12 +522,16 @@
                     ]
                 },
                 {
-                    "key":"Bundle_1.1",
+                    "key": "Bundle_2.2",
                     "direction": "horizontal",
-                    "columns" : ["1", "2", "3"],
+                    "columns": [
+                        "1",
+                        "2",
+                        "3"
+                    ],
                     "steps": [
                         {
-                            "key": "2.7",
+                            "key": "2.8",
                             "header": "Enter: Fellshrine Ruins",
                             "type": "portal",
                             "description": null,
@@ -529,7 +539,7 @@
                             "column": "1"
                         },
                         {
-                            "key": "2.8",
+                            "key": "2.9",
                             "header": "Enter: The Crypt Level 1",
                             "type": "portal",
                             "description": null,
@@ -537,7 +547,7 @@
                             "column": "1"
                         },
                         {
-                            "key": "2.9",
+                            "key": "2.10",
                             "header": "Trial of Ascendancy: 2",
                             "type": "trial",
                             "description": null,
@@ -545,16 +555,8 @@
                             "column": "1"
                         },
                         {
-                            "key": "2.10",
-                            "header": "Enter: Forest Encampment (Town)",
-                            "type": "portal",
-                            "description": null,
-                            "hints": null,
-                            "column": "1"
-                        },
-                        {
                             "key": "2.11",
-                            "header": "Enter: The Crossroads (if needed)",
+                            "header": "Enter: Forest Encampment (Town)",
                             "type": "portal",
                             "description": null,
                             "hints": null,
@@ -562,6 +564,14 @@
                         },
                         {
                             "key": "2.12",
+                            "header": "Enter: The Crossroads (if needed)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "1"
+                        },
+                        {
+                            "key": "2.13",
                             "header": "Enter: The Chamber of Sins Level 1",
                             "type": "portal",
                             "description": null,
@@ -569,7 +579,7 @@
                             "column": "2"
                         },
                         {
-                            "key": "2.13",
+                            "key": "2.14",
                             "header": "Enter: The Chamber of Sins Level 2",
                             "type": "portal",
                             "description": null,
@@ -577,7 +587,7 @@
                             "column": "2"
                         },
                         {
-                            "key": "2.14",
+                            "key": "2.15",
                             "header": "Trial of Ascendancy: 3",
                             "type": "trial",
                             "description": null,
@@ -585,7 +595,7 @@
                             "column": "2"
                         },
                         {
-                            "key": "2.15",
+                            "key": "2.16",
                             "header": "Kill: Fidelitas",
                             "type": "kill",
                             "description": null,
@@ -593,16 +603,8 @@
                             "column": "2"
                         },
                         {
-                            "key": "2.16",
-                            "header": "Enter: Forest Encampment (Town)",
-                            "type": "portal",
-                            "description": null,
-                            "hints": null,
-                            "column": "2"
-                        },
-                        {
                             "key": "2.17",
-                            "header": "Enter: The Crossroads (if needed)",
+                            "header": "Enter: Forest Encampment (Town)",
                             "type": "portal",
                             "description": null,
                             "hints": null,
@@ -610,6 +612,14 @@
                         },
                         {
                             "key": "2.18",
+                            "header": "Enter: The Crossroads (if needed)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null,
+                            "column": "2"
+                        },
+                        {
+                            "key": "2.19",
                             "header": "Enter: The Broken Bridge",
                             "type": "portal",
                             "description": null,
@@ -617,7 +627,7 @@
                             "column": "3"
                         },
                         {
-                            "key": "2.19",
+                            "key": "2.20",
                             "header": "Kill: Kraityn",
                             "type": "kill",
                             "description": null,
@@ -625,7 +635,7 @@
                             "column": "3"
                         },
                         {
-                            "key": "2.16",
+                            "key": "2.21",
                             "header": "Enter: Forest Encampment (Town)",
                             "type": "portal",
                             "description": null,
@@ -633,7 +643,7 @@
                             "column": "3"
                         },
                         {
-                            "key": "2.17",
+                            "key": "2.22",
                             "header": "Enter: The Crossroads (if needed)",
                             "type": "portal",
                             "description": null,
@@ -643,25 +653,25 @@
                     ]
                 },
                 {
-                    "key":"Bundle_1.1",
+                    "key": "Bundle_2.3",
                     "direction": "vertical",
                     "steps": [
                         {
-                            "key": "2.18",
+                            "key": "2.23",
                             "header": "Enter: The Riverways",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "2.19",
+                            "key": "2.24",
                             "header": "Explore: Find the waypoint",
                             "type": "exploration",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "2.20",
+                            "key": "2.25",
                             "header": "Enter: Western Forest",
                             "type": "portal",
                             "description": null,
@@ -670,12 +680,16 @@
                     ]
                 },
                 {
-                    "key":"Bundle_1.1",
+                    "key": "Bundle_2.4",
                     "direction": "horizontal",
-                    "columns": ["1", "2", "3"],
+                    "columns": [
+                        "1",
+                        "2",
+                        "3"
+                    ],
                     "steps": [
                         {
-                            "key": "2.21",
+                            "key": "2.26",
                             "header": "Kill: Captain Arteri",
                             "type": "kill",
                             "column": "1",
@@ -683,7 +697,7 @@
                             "hints": null
                         },
                         {
-                            "key": "2.22",
+                            "key": "2.27",
                             "header": "Loot: Thaumetic Emblem",
                             "type": "kill",
                             "column": "1",
@@ -691,7 +705,7 @@
                             "hints": null
                         },
                         {
-                            "key": "2.23",
+                            "key": "2.28",
                             "header": "Explore: Socket the emblem",
                             "type": "exploration",
                             "column": "1",
@@ -699,7 +713,7 @@
                             "hints": null
                         },
                         {
-                            "key": "2.24",
+                            "key": "2.29",
                             "header": "Kill: Alira",
                             "type": "kill",
                             "column": "2",
@@ -707,15 +721,17 @@
                             "hints": null
                         },
                         {
-                            "key": "2.25",
+                            "key": "2.30",
                             "header": "Enter: The Weaver's Chambers",
                             "type": "portal",
                             "column": "3",
                             "description": "The entrance of this zone is always located opposite Alira's camp",
-                            "hints": ["You'll know that you're going the right way when you the forest getting covered in cobwebs"]
+                            "hints": [
+                                "You'll know that you're going the right way when you the forest getting covered in cobwebs"
+                            ]
                         },
                         {
-                            "key": "2.26",
+                            "key": "2.31",
                             "header": "Kill: The Weaver",
                             "type": "kill",
                             "column": "3",
@@ -723,7 +739,7 @@
                             "hints": null
                         },
                         {
-                            "key": "2.27",
+                            "key": "2.32",
                             "header": "Loot: Maligaro's Spike",
                             "type": "loot",
                             "column": "3",
@@ -731,7 +747,7 @@
                             "hints": null
                         },
                         {
-                            "key": "2.28",
+                            "key": "2.33",
                             "header": "Enter: The Riverways",
                             "type": "portal",
                             "description": null,
@@ -740,56 +756,14 @@
                     ]
                 },
                 {
-                    "key":"Bundle_1.1",
+                    "key": "Bundle_2.5",
                     "direction": "vertical",
                     "steps": [
                         {
-                            "key": "2.29",
+                            "key": "2.34",
                             "header": "Enter: The Riverways",
                             "type": "portal",
                             "description": null,
-                            "hints": null
-                        },
-                        {
-                            "key": "2.29",
-                            "header": "Enter: The Wetlands",
-                            "type": "portal",
-                            "description": null,
-                            "hints": null
-                        },
-                        {
-                            "key": "2.30",
-                            "header": "Kill: Oak",
-                            "type": "kill",
-                            "description": null,
-                            "hints": ["You can find Oak's camp by following the small stream of water."]
-                        },
-                        {
-                            "key": "2.31",
-                            "header": "Explore: Find the waypoint",
-                            "type": "exploration",
-                            "description": null,
-                            "hints": null
-                        },
-                        {
-                            "key": "2.32",
-                            "header": "Enter: Forest Encampment (Town)",
-                            "type": "portal",
-                            "description": null,
-                            "hints": null
-                        },
-                        {
-                            "key": "2.33",
-                            "header": "Quest: ???",
-                            "type": "quest",
-                            "description": "Talk to ...",
-                            "hints": null
-                        },
-                        {
-                            "key": "2.34",
-                            "header": "Loot: The Apex",
-                            "type": "quest",
-                            "description": "This is a quest reward, make sure that you have it.",
                             "hints": null
                         },
                         {
@@ -801,48 +775,94 @@
                         },
                         {
                             "key": "2.36",
+                            "header": "Kill: Oak",
+                            "type": "kill",
+                            "description": null,
+                            "hints": [
+                                "You can find Oak's camp by following the small stream of water."
+                            ]
+                        },
+                        {
+                            "key": "2.37",
+                            "header": "Explore: Find the waypoint",
+                            "type": "exploration",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.38",
+                            "header": "Enter: Forest Encampment (Town)",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.39",
+                            "header": "Quest: ???",
+                            "type": "quest",
+                            "description": "Talk to ...",
+                            "hints": null
+                        },
+                        {
+                            "key": "2.40",
+                            "header": "Loot: The Apex",
+                            "type": "loot",
+                            "description": "This is a quest reward, make sure that you have it.",
+                            "hints": null
+                        },
+                        {
+                            "key": "2.41",
+                            "header": "Enter: The Wetlands",
+                            "type": "portal",
+                            "description": null,
+                            "hints": null
+                        },
+                        {
+                            "key": "2.42",
                             "header": "Enter: The Vaal Ruins",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "2.37",
-                            "header": "Enter: The Northerns Forest",
+                            "key": "2.43",
+                            "header": "Enter: The Northern Forest",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "2.38",
+                            "key": "2.44",
                             "header": "Enter: The Dread Thicket",
                             "type": "portal",
                             "description": null,
-                            "hints": ["You can unlock hideout in this zone"]
+                            "hints": [
+                                "You can unlock hideout in this zone"
+                            ]
                         },
                         {
-                            "key": "2.39",
+                            "key": "2.45",
                             "header": "Enter: The Caverns",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "2.40",
+                            "key": "2.46",
                             "header": "Enter: The Ancient Pyramid",
                             "type": "portal",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "2.41",
+                            "key": "2.47",
                             "header": "Kill: Vaal Oversoul",
                             "type": "kill",
                             "description": null,
                             "hints": null
                         },
                         {
-                            "key": "2.41",
+                            "key": "2.48",
                             "header": "Enter: The City of Sarn",
                             "type": "portal",
                             "description": null,

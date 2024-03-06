@@ -1,4 +1,4 @@
-import './waypointStep.css'
+import './step.css'
 import { GiCrossedSwords } from "react-icons/gi";
 import { FaPersonWalking } from "react-icons/fa6";
 import { CiBag1 } from "react-icons/ci";
@@ -8,7 +8,7 @@ import { TbSortAscending } from "react-icons/tb";
 import { useState } from 'react';
 
 
-export default function WaypointStep(props) {
+export default function Step(props) {
 
     var [isActive, setIsActive] = useState(true)
 
@@ -26,8 +26,8 @@ export default function WaypointStep(props) {
     }
 
     return (
-        <div className={`step border-${props.type} ${!isActive ? "inactive" : ""}`} onClick={toggleIsActive}>
-            <div className={`stepHeader background-${props.type}`}>
+        <div className={`step border-${props.type} ${!isActive ? "inactive" : ""}`}>
+            <div className={`stepHeader background-${props.type}`} onClick={toggleIsActive}>
                 <span>{icons[props.type]}</span> <p>{props.header}</p>
             </div>
 
@@ -39,7 +39,7 @@ export default function WaypointStep(props) {
             {(props.hints !== undefined && props.hints !== null && isActive) &&
                 <div className='stepHints'>
                     {props.hints !== undefined && props.hints.map(item => {
-                        return <p><FaExclamation /> {item}</p>;
+                        return <p key={item}><FaExclamation /> {item}</p>;
                     })}
                 </div>
             }
